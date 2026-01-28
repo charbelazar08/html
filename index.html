@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Be My Valentine? 💖</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to bottom right, #ffe6f2, #ffccd9);
+            text-align: center;
+            color: #800040;
+            padding: 50px;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-top: 10px;
+        }
+        p {
+            font-size: 1.3em;
+            margin: 20px 0;
+        }
+
+        img {
+            width: 250px;
+            border-radius: 15px;
+            margin: 20px auto;
+            display: block;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        }
+
+        form {
+            background: #fff;
+            display: inline-block;
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        label {
+            font-size: 1.2em;
+            margin-right: 10px;
+        }
+        input[type="radio"] {
+            margin: 0 8px;
+        }
+
+        button {
+            margin-top: 20px;
+            padding: 10px 25px;
+            font-size: 1.2em;
+            background: #ff4da6;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+        button:hover {
+            background: #e60073;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Your photo -->
+    <img src="valentinephoto.jpg" alt="Us ❤️" style="width:250px; border-radius:15px; margin:20px auto; display:block; box-shadow:0 4px 10px rgba(0,0,0,0.2);">
+
+
+    <!-- The question -->
+    <h1>Hey Oly ❤️</h1>
+    <p>Will you be my Valentine?</p>
+
+    <!-- Form sending answer via formsubmit.co -->
+    <form action="https://formsubmit.co/charbelazar08@gmail.com" method="POST">
+        <label>
+            <input type="radio" name="answer" value="Yes 💘" required>
+            Yes 💘
+        </label><br><br>
+
+        <label>
+            <input type="radio" name="answer" value="No 💔" required>
+            You Cannot ayayet :p 💔
+        </label><br>
+
+        <!-- Optional hidden fields for email formatting -->
+        <input type="hidden" name="_subject" value="New Valentine Answer! 💌">
+        <input type="hidden" name="_template" value="table">
+
+        <button type="submit">Submit Answer ❤️</button>
+    </form>
+
+</body>
+</html>
